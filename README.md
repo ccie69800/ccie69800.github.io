@@ -17,7 +17,7 @@ Welcome to my infrastructure portfolio. I am a professional Staff Network Engine
 
 ### Enterprise Infrastructure Operations & Tech Refresh
 
-```mermaid
+<div class="mermaid">
 graph TD
     subgraph MGMT [1. Management & Security Automation]
         direction LR
@@ -44,3 +44,25 @@ graph TD
     Bulk --> INFRA
     INFRA --> WIRELESS
     INFRA --> OPS
+</div>
+
+* **Hardware & Software Lifecycle Management:** Led end-to-end tech refreshes for Cisco Catalyst, NX-OS, and ASR hardware—encompassing planning, configuration, deployment, and monitoring tools synchronization.
+* **Bulk Policy & Security Automation:** Developed structured automation workflows utilizing CSV datasets to push bulk ACL updates and core OS upgrades via enterprise management tools, drastically reducing human error.
+* **Wireless Mobility Optimization:** Engineered robust enterprise wireless troubleshooting matrixes using WLC to diagnose connectivity anomalies and streamline fault-tolerant AP provisions.
+* **Proactive Architecture Standardization:** Authored comprehensive troubleshooting SOPs for L1/L2 engineering teams, moving from reactive debugging to data-driven proactive operations based on deep hardware ASIC buffer analysis.
+
+---
+
+## 🤖 Automation Lab
+
+### Palo Alto Networks CLI Automation
+Below is an example of the structured PAN-OS CLI automation workflows I design to handle large-scale network objects and static address groups efficiently:
+
+```bash
+# Shared Address Object Creation
+set shared address 10.216.32.10 ip-netmask 10.216.32.10
+set shared address 10.216.32.11 ip-netmask 10.216.32.11
+
+# Static Address Group Enforcement
+set shared address-group ci_7063851-corp-dag static 10.216.32.10
+set shared address-group ci_7063851-corp-dag static 10.216.32.11
