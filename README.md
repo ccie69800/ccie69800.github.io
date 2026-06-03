@@ -1,4 +1,22 @@
-# ccie69800.github.io
+# David Sung | Staff Network Engineer
+
+Welcome to my infrastructure portfolio. I am a professional Staff Network Engineer with nearly 20 years of total IT industry experience, specializing for over 10 years in enterprise networking, hybrid cloud architectures, and network automation.
+
+---
+
+## 🛠️ Technical Expertise
+
+* **Core Networking:** Cisco ACI Fabric, VXLAN, BGP Routing Policies, OSPF, EIGRP, Cisco SDA/DNA
+* **Security & Firewalls:** Palo Alto Networks (PAN-OS), Object/Policy Automation, Zero Trust Governance
+* **Automation & IaC:** Python, Ansible, Netmiko, Netbox, CI/CD Integration
+* **Wireless & Mobility:** Cisco WLC/AP (CAPWAP), Aruba, Meraki Wireless
+
+---
+
+## 🚀 Key Professional Milestones
+
+### Enterprise Infrastructure Operations & Tech Refresh
+
 ```mermaid
 graph TD
     subgraph MGMT [1. Management & Security Automation]
